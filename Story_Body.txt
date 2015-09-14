@@ -29,46 +29,46 @@ switch (user){
             console.log("You are barely capable of walking and everyone sees you while doing so, you start to walk away but you end up falling on her.");
         }
         break;
-    case 'Random':
-        var experience = prompt("");
-        var AbilityToRememberSinceICantPutKnowledgeTwice = prompt("");
-        var personality = prompt("");
-        var intilect = prompt("");
-        var reason = prompt("");
-        var fitness = prompt("");
-        var friends = prompt("");
-        console.log("");
+    case 'FLIRT':
+        var experience = prompt("Have you done this before?");
+        var AbilityToRememberSinceICantPutKnowledgeTwice = prompt("You know her well?");
+        var personality = prompt("Do you have a good personality?");
+        var intilect = prompt("Are you smart in any way?");
+        var reason = prompt("Do you really like her?");
+        var fitness = prompt("Are you at all  fit?");
+        var friends = prompt("Lastly, do your friends and her friends get along?");
+        console.log("Sorry did you actually think you had any chance with her? I sure as hell didnt...");
         break;
     case 'TALKNORMALY':
-        var news = prompt("");
-        var knowledge = prompt("");
-        var intilect = prompt("");
+        var news = prompt("Do you watch the news at all?");
+        var knowledge = prompt("Do you know her well?");
+        var intilect = prompt("Are you socially smart?");
         if (news && knowledge && intilect) {
-            console.log("");
+            console.log("Well, you talk about a bunch of random things but dont really piss her off. She does smile at one point and it awkwardly ends.");
         }
         else if (!news && knowledge && intilect) {
-            console.log("");
+            console.log("You dont know anything to talk about so you only talk about her. You really creep her out and she walks away 29 seconds later.");
         }
         else if (news && knowledge && !intilect) {
-            console.log("");
+            console.log("You start talking and minutes later you deeply offend her.");
         }
         else if (news && !knowledge && intilect) {
-            console.log("");
+            console.log("You make an argument about a stupid book you read recently and how its horrible. It was her favorite book");
         }
         else if (news && !knowledge && !intilect) {
-            console.log("");
+            console.log("You just go on and on about some random war and she leaves 14 seconds later.");
         }
         else if (!news && !knowledge && !intilect) {
-            console.log("");
+            console.log("You just stand there not talking. She walks away 5 seconds later.");
         }
         else if (!news && !knowledge && intilect) {
-            console.log("");
+            console.log("You start talking about people she doesn't know as if she did, she wlks away after as she finds none of the jokes funny.");
         }
         else {
-            console.log("");
+            console.log("Well you start talking about her, notice about not to her, she leaves and goes out with your best friend.");
         }
         break;
     default:
-    console.log("");
+    console.log("Wrong answer");
 }
 
