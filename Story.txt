@@ -1,0 +1,85 @@
+var user = prompt("For some reason you decided to go up to the girl you liked and started to try to talk to her, it is going horribly so at this point you should either RUN attempt to FLIRT or just TALK_NORMALY. You might as well chose, it's your funeral.").toUpperCase();
+switch(user) {
+    case 'RUN':
+        var speed = prompt("Are you fast?");
+        var stealth = prompt("Will you be very noticable when you do this?");
+        var graceful = proimpt("Are you graceful?");
+        if      (speed && !stealth && graceful) {
+            console.log("You get away and you dont look like an idiot.");
+        }
+        else if (speed && stealth && !graceful) {
+            console.log("You start to go away but it turns out you run into another person, trip over their foot, and go right into a wall head first!");
+        }
+        else if (!speed && stealth && graceful) {
+            console.log("You slowly sliver away into the crowd, but because your so damn slow she sees you and wonders what the hell is wrong with you.");
+        }
+        else if (!speed && !stealth && graceful) {
+            console.log("Well you make it away for like 20 seconds but she ends up finding you and asking why you left. Be faster.");
+        }
+        else if (speed && stealth && graceful) {
+            console.log("You just run away from her and you dont trip, the only thing is shes watching you the entire time and wondering what's wrong with you.");
+        }
+        else if (speed && !stealth && !graceful) {
+            console.log("You start to run and she doesnt notice you, until you look back and just run strait into a wall.");
+        }
+        else if (!speed && !stealth && !graceful) {
+            console.log("Well you start to slowly move away but end up tripping over a chair not 5 feet away from her.");
+        }
+        else {
+            console.log("You are barely capable of walking and everyone sees you while doing so, you start to walk away but you end up falling on her.");
+        }
+        break;
+    case 'FLIRT':
+        var experience = prompt("Have you done this before?");
+        var knowledge = prompt("You know her well?");
+        var personality = prompt("Do you have a good personality?");
+        var intilect = prompt("Are you smart in any way?");
+        var reason = prompt("Do you really like her?");
+        var fitness = prommpt("Are you at all  fit?");
+        var friends = prompt("Lastly, do your friends and her friends get along?");
+        console.log("Sorry did you actually think you had any chance with her? I sure as hell didnt...");    
+        break;
+    case 'TALK_NORMALY':
+        var news = prompt("Do you watch the news at all?");
+        var knowledge = prompt("Do you know her well?");
+        var intilect = prompt("Are you socially smart?");
+        if (news && knowledge && intilect) {
+            console.log("Well, you talk about a bunch of random things but dont really piss her off. She does smile at one point and it awkwardly ends.");
+        }
+        else if (!news && knowledge && intilect) {
+            console.log("You dont know anything to talk about so you only talk about her. You really creep her out and she walks away 29 seconds later.");
+        }
+        else if (news && knowledge && !intilect) {
+            console.log("You start talking and minutes later you deeply offend her.");
+        }
+        else if (news && !knowledge && intilect) {
+            console.log("You make an argument about a stupid book you read recently and how its horrible. It was her favorite book");
+        }
+        else if (news && !knowledge && !intilect) {
+            console.log("You just go on and on about some random war and she leaves 14 seconds later.");
+        }
+        else if (!news && !knowledge && !intilect {
+            console.log("You just stand there not talking. She walks away 5 seconds later.");
+        }
+        else if (!news && !knowledge && intilect) {
+            console.log("You start talking about people she doesn't know as if she did, she wlks away after as she finds none of the jokes funny.");
+        }
+        else {
+            console.log("Well you start talking about her, notice about not to her, she leaves and goes out with your best friend.");
+        }
+        break;
+    default:
+    console.log("Wrong answer");
+}
+
+    
+
+
+
+
+
+//  console.log("best thing you could have done, run boy run this world is not meant for you, run boy run they're trying to catch you");
+//console.log("you fail miserably and now you humiliated yourself in public, dont shit where you eat");
+// console.log("shes not interested and she thinks you're a freak");
+
+\

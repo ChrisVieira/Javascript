@@ -1,0 +1,73 @@
+var user = prompt("").toUpperCase();
+switch (user){
+    case 'RUN':
+        var speed = prompt("");
+        var stealth = prompt("");
+        var graceful = proimpt("");
+        if      (speed && !stealth && graceful) {
+            console.log("");
+        }
+        else if (speed && stealth && !graceful) {
+            console.log("");
+        }
+        else if (!speed && stealth && graceful) {
+            console.log("");
+        }
+        else if (!speed && !stealth && graceful) {
+            console.log("");
+        }
+        else if (speed && stealth && graceful) {
+            console.log("");
+        }
+        else if (speed && !stealth && !graceful) {
+            console.log("");
+        }
+        else if (!speed && !stealth && !graceful) {
+            console.log("");
+        }
+        else {
+            console.log("");
+        }
+        break;
+    case 'Random':
+        var experience = prompt("");
+        var knowledge = prompt("");
+        var personality = prompt("");
+        var intilect = prompt("");
+        var reason = prompt("");
+        var fitness = prommpt("");
+        var friends = prompt("");
+        console.log("");    
+        break;
+    case 'TALKNORMALY':
+        var news = prompt("");
+        var knowledge = prompt("");
+        var intilect = prompt("");
+        if (news && knowledge && intilect) {
+            console.log("");
+        }
+        else if (!news && knowledge && intilect) {
+            console.log("");
+        }
+        else if (news && knowledge && !intilect) {
+            console.log("");
+        }
+        else if (news && !knowledge && intilect) {
+            console.log("");
+        }
+        else if (news && !knowledge && !intilect) {
+            console.log("");
+        }
+        else if (!news && !knowledge && !intilect {
+            console.log("");
+        }
+        else if (!news && !knowledge && intilect) {
+            console.log("");
+        }
+        else {
+            console.log("");
+        }
+        break;
+    default:
+    console.log("");
+}
