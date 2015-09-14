@@ -1,43 +1,43 @@
-var user = prompt("").toUpperCase();
+var user = prompt("For some reason you decided to go up to the girl you liked and started to try to talk to her, it is going horribly so at this point you should either RUN attempt to FLIRT or just TALK_NORMALY. You might as well chose, it's your funeral.").toUpperCase();
 switch (user){
     case 'RUN':
-        var speed = prompt("");
-        var stealth = prompt("");
-        var graceful = proimpt("");
+        var speed = prompt("Are you fast?");
+        var stealth = prompt("Will you be very noticable when you do this?");
+        var graceful = prompt("Are you graceful?");
         if      (speed && !stealth && graceful) {
-            console.log("");
+            console.log("You get away and you dont look like an idiot.");
         }
         else if (speed && stealth && !graceful) {
-            console.log("");
+            console.log("You start to go away but it turns out you run into another person, trip over their foot, and go right into a wall head first!");
         }
         else if (!speed && stealth && graceful) {
-            console.log("");
+            console.log("You slowly sliver away into the crowd, but because your so damn slow she sees you and wonders what the hell is wrong with you.");
         }
         else if (!speed && !stealth && graceful) {
-            console.log("");
+            console.log("Well you make it away for like 20 seconds but she ends up finding you and asking why you left. Be faster.");
         }
         else if (speed && stealth && graceful) {
-            console.log("");
+            console.log("You just run away from her and you dont trip, the only thing is shes watching you the entire time and wondering what's wrong with you.");
         }
         else if (speed && !stealth && !graceful) {
-            console.log("");
+            console.log("You start to run and she doesnt notice you, until you look back and just run strait into a wall.");
         }
         else if (!speed && !stealth && !graceful) {
-            console.log("");
+            console.log("ell you start to slowly move away but end up tripping over a chair not 5 feet away from her.");
         }
         else {
-            console.log("");
+            console.log("You are barely capable of walking and everyone sees you while doing so, you start to walk away but you end up falling on her.");
         }
         break;
     case 'Random':
         var experience = prompt("");
-        var knowledge = prompt("");
+        var AbilityToRememberSinceICantPutKnowledgeTwice = prompt("");
         var personality = prompt("");
         var intilect = prompt("");
         var reason = prompt("");
-        var fitness = prommpt("");
+        var fitness = prompt("");
         var friends = prompt("");
-        console.log("");    
+        console.log("");
         break;
     case 'TALKNORMALY':
         var news = prompt("");
@@ -58,7 +58,7 @@ switch (user){
         else if (news && !knowledge && !intilect) {
             console.log("");
         }
-        else if (!news && !knowledge && !intilect {
+        else if (!news && !knowledge && !intilect) {
             console.log("");
         }
         else if (!news && !knowledge && intilect) {
@@ -71,3 +71,4 @@ switch (user){
     default:
     console.log("");
 }
+
