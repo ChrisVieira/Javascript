@@ -23,7 +23,7 @@ switch (user){
             console.log("You start to run and she doesnt notice you, until you look back and just run strait into a wall.");
         }
         else if (!speed && !stealth && !graceful) {
-            console.log("ell you start to slowly move away but end up tripping over a chair not 5 feet away from her.");
+            console.log("Well you start to slowly move away but end up tripping over a chair not 5 feet away from her.");
         }
         else {
             console.log("You are barely capable of walking and everyone sees you while doing so, you start to walk away but you end up falling on her.");
