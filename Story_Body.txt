@@ -1,4 +1,4 @@
-var user = prompt("For some reason you decided to go up to the girl you liked and started to try to talk to her, it is going horribly so at this point you should either RUN attempt to FLIRT or just TALKNORMALY. You might as well chose, it's your funeral.").toUpperCase();
+var user = prompt("For some reason you decided to go up to the girl you liked and started to try to talk to her, it is going horribly so at this point you should either RUN attempt to FLIRT or just TALKNORMALLY. You might as well chose, it's your funeral.").toUpperCase();
 switch (user){
     case 'RUN':
         var speed = prompt("Are you fast?");
@@ -39,7 +39,7 @@ switch (user){
         var friends = prompt("Lastly, do your friends and her friends get along?");
         console.log("Sorry did you actually think you had any chance with her? I sure as hell didnt...");
         break;
-    case 'TALKNORMALY':
+    case 'TALKNORMALLY':
         var news = prompt("Do you watch the news at all?");
         var knowledge = prompt("Do you know her well?");
         var intilect = prompt("Are you socially smart?");
