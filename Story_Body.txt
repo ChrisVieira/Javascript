@@ -69,7 +69,7 @@ switch (user){
         }
         break;
     default:
-    console.log("Wrong answer");
+    console.log("She punches you, I'm sure whatever you just typed was screwed up in some way.");
 }
 
 
