@@ -1,4 +1,4 @@
-var user = prompt("For some reason you decided to go up to the girl you liked and started to try to talk to her, it is going horribly so at this point you should either RUN attempt to FLIRT or just TALK_NORMALY. You might as well chose, it's your funeral.").toUpperCase();
+var user = prompt("For some reason you decided to go up to the girl you liked and started to try to talk to her, it is going horribly so at this point you should either RUN attempt to FLIRT or just TALKNORMALY. You might as well chose, it's your funeral.").toUpperCase();
 switch (user){
     case 'RUN':
         var speed = prompt("Are you fast?");
