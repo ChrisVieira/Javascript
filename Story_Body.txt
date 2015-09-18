@@ -37,8 +37,10 @@ switch (user){
         var reason = prompt("Do you really like her?");
         var fitness = prompt("Are you at all  fit?");
         var friends = prompt("Lastly, do your friends and her friends get along?");
+if (intilect || !intilect) {
         console.log("Sorry did you actually think you had any chance with her? I sure as hell didnt...");
-        break;
+}        
+break;
     case 'TALKNORMALLY':
         var news = prompt("Do you watch the news at all?");
         var knowledge = prompt("Do you know her well?");
