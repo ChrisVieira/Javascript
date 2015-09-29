@@ -70,7 +70,7 @@ break;
             console.log("Well you start talking about her, notice about not to her, she leaves and goes out with your best friend.");
 
 // ok budy, remember she is kind enough not to lead you on first before she decides to go out with your best friend, hell she is just kind enough no to
-lead you on at this rate. Be thankful as honesty is rare in the society we live in. If you find a honest person you dont let them slip away.
+//lead you on at this rate. Be thankful as honesty is rare in the society we live in. If you find a honest person you dont let them slip away.
         }
         break;
     default:
