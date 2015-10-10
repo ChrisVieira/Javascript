@@ -82,4 +82,4 @@ switch(user) {
 //console.log("you fail miserably and now you humiliated yourself in public, dont shit where you eat");
 // console.log("shes not interested and she thinks you're a freak");
 
-\
+// well she just killed me a little 10/10
